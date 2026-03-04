@@ -10,25 +10,30 @@ body{
     align-items: center;
     height: 100vh;
 }
-.container{
-    border: 2px solid gray;
+#container{
     background-color: #0B2D72;
     border-radius: 20px;
     padding: 20px;
     width: 350px;
     max-width: 90%;
 }
-.display {
+#display {
+    text-align: right;
     background-color: #F6E7BC;
     border-radius: 20px;
-    height: 60px;
+    height: 80px;
     padding: 10px;
     font-size: 2rem;
-    text-align: right;
-    border: 2px solid black;
     margin-bottom: 10px;
 }
-.buttons{
+#previous{
+    font-size: 20px;
+}
+#current{
+    font-size: 30px;
+    overflow-x: auto;
+}
+#buttons{
     height: 80%;
     display: flex;
     flex-direction: column;
@@ -37,7 +42,7 @@ body{
 .row{
     display: flex;
     align-items: center;
-}
+}   
 button{
     flex: 1;
     height: 60px;
@@ -61,4 +66,10 @@ button:active{
 }
 .ctrl{
     background-color: orange;
+}
+footer{
+    background-color: lightblue;
+    width: 100vh;
+    height: 200px;
+    margin: 20px;
 }
